@@ -4,7 +4,12 @@ module.exports = {
       target: 'temporary-public-storage',
     },
     asserts: {
-      preset: 'lighthouse:no-pwa',
+      assertions: {
+        'categories:performance': ['warn', { minScore: 0.9 }],
+        'categories:accessibility': ['warn', { minScore: 0.9 }],
+        'categories:best-practices': ['warn', { minScore: 0.9 }],
+        'categories:seo': ['warn', { minScore: 1 }],
+      },
     },
   },
 };
