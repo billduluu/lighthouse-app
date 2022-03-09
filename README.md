@@ -1,5 +1,9 @@
 # LightHouse React App
 
+## Overview
+
+Analyze performance before the release shipped to the end-users
+
 ## Development Guide
 
 First, setup, install & run the development server:
@@ -14,3 +18,7 @@ yarn start
 ```bash
 lhci autorun
 ```
+
+##Documentation
+
+If you need guide you can see [here](https://www.google.com/)
